@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-const Login = () => {
+const Register = () => {
   return (
     <Box
       component="form"
@@ -14,10 +14,10 @@ const Login = () => {
     >
       <div>
         <TextField
-          error
+          error={null}
           id="outlined-error"
           label="Error"
-          defaultValue="Hello World"
+          defaultValue="Hello Worl"
         />
         <TextField
           error
@@ -66,4 +66,4 @@ const Login = () => {
 }
 
 
-export default Login;
+export default Register;

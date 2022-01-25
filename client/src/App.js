@@ -1,5 +1,6 @@
-import React from "react";
-import Login from "../components/Login";
+import React from 'react';
+import Login from './components/Login';
+import './sass/App.scss';
 
 function App() {
   return (
